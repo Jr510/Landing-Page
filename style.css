@@ -8,6 +8,8 @@ body {
 
 ul {
   list-style-type: none;
+  display: flex;
+  gap: 16px;
 }
 
 a {
@@ -65,3 +67,24 @@ h2 {
   border-radius: 10px;
   border: 2px solid #3882F6;
  }
+
+.hero-image {
+  max-width: 500px;
+} 
+
+ /* Most of the Flex styles below */
+
+.header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+ }
+
+.hero-section {
+  display: flex;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  justify-content: space-around;
+ }
+
+
